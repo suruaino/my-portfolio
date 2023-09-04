@@ -1,0 +1,124 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+}
+body{
+    background: #E5E5E5;
+}
+#hero-section{
+    background: linear-gradient(
+        to bottom right, 
+        rgb(213, 213, 227) 25%, 
+        rgb(246, 228, 196) 20%, 
+        rgb(217, 214, 214) 100%
+    );
+    min-height: 600px;
+}
+#hero{
+    min-height: 400px;
+}
+#hero #hero-img #imgbx{
+    position: relative;
+    min-width: 300px;
+    min-height: 350px;
+
+}
+#hero #hero-img #imgbx img:nth-child(1){
+    position: absolute;
+    width: 60%;
+    height: 40%;
+    left: 10%;
+    top: 10%;
+}
+#hero #hero-img #imgbx img:nth-child(2){
+    position: absolute;
+    width: 45%;
+    height: 35%;
+    left: 3%;
+    bottom: 10%;
+}
+#hero #hero-img #imgbx img:nth-child(3){
+    position: absolute;
+    width: 25%;
+    height: 40%;
+    right: 10%;
+    bottom: 20%;
+    /* z-index: ; */
+}
+#more-content h2 span{
+    background-image: linear-gradient(
+        to right, #ff00cc, 
+        #0000ff
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#simple h2 span{
+    background-image: linear-gradient(
+        to right, 
+        #5cf11c, 
+        #ebfd62, 
+        #ebfd62, 
+        #ebfd62, 
+        #ebfd62 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+section{
+    min-width: 100%;
+}
+#experience .container-fluid{
+    /* min-height: 500px;
+    max-width: 1200px; */
+
+}
+#experience h2 span{
+    background-image: linear-gradient(
+        to right, 
+        #0b72e7, 
+        #6bcd97, 
+        #38a6d5
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#more #container{
+    max-width: 70%;
+    min-height: 500px;
+}
+
+#more .row #img #imgbx{
+    /* position: relative;
+    min-width: 200px;
+    min-height: 300px; */
+}
+#more .row #img #imgbx img:nth-child(1){
+    /* position: absolute; */
+    width: 120px;
+    height: 120px;
+   
+ 
+}
+#more #img #imgbx img:nth-child(2){
+    width: 120px;
+    height: 120px;
+}
+#more #img #imgbx img:nth-child(3){
+    width: 120px;
+    height: 120px;
+    
+}
+#more #img #imgbx img:nth-child(4){
+    width: 120px;
+    height: 120px;
+}
+
+#social-contact a{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

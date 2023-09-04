@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bill Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div id="container">
+            <H1>Bill Calculator</H1>
+            <div id="form">
+                <form>
+
+                    <label>
+                        Bill For: <br>
+                        <p> <input id="biller"></p>
+                    </label>
+                    <br>
+                    <label>
+                        Amount Per Quality <br>
+                        $ <input id="amountPerQuality" type="text" placeholder="$200" disabled>
+                    </label>
+    
+                    <br>
+                    
+                    <label>
+                        Quality of service<br>
+                        <select id="qualityRate">
+                            <option disabled selected value="0">choose an option</option>
+                            <option value="5">100% - excellent</option>
+                            <option value="4">80% - Good</option>
+                            <option value="3">60% - Okay</option>
+                            <option value="2">40% - Fair</option>
+                            <option value="1">20% - poor</option>
+                            <option value="0.5">10% - bad</option>
+    
+                        </select>
+                    </label>
+                    <br>
+                    <label>
+                        Number of guest<br>
+                        <input id ="numberOfGuest" type="number">
+                    </label>
+                    <br>
+                    <button type="button" id="calculate">calculate</button>
+    
+                </form>
+            </div>
+            <div id="totalAmount">
+                <p>Total Bill</p>
+                <sup>$</sup><Span id="bill">0.00</Span>
+            </div>
+    
+        </div> <!--container-->
+
+    <script type="text/javascript" src="javaproject.js">   
+        
+    </script>
+</body>
+</html>
