@@ -1,5 +1,7 @@
 * input,
-* textarea{
+* textarea,
+* select,
+* option{
     background: white;
     color: white;
 }
@@ -18,7 +20,7 @@ body{
 #container{
     text-align: center;
     background: black;
-    width: 400px;
+    max-width: 100%;
     color: white;
     height: auto;
     padding: 0px 40px 25px 40px;
@@ -66,11 +68,13 @@ button{
     text-transform:uppercase;
     font-size: 20px;
     cursor: pointer;
+    border: 1px solid transparent;
+    transition: .3s;
 }
 
 button:hover{
-    background-color: rgb(48, 8, 8);
-    border: 1px solid blue;
+    /* background-color: rgb(48, 8, 8); */
+    border: 1px solid white;
     /*box-sizing: border-box;*/
 }
 
